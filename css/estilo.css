@@ -689,6 +689,13 @@ footer .arriba{
         border-bottom: 1px solid #fff;
         padding: 10px 0;
     }
+    .btn-wsp{
+        position: fixed;
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        bottom: 30px;
+        right: 30px;
 }
 @media screen and (max-width:700px){
     .sobremi .fila{
@@ -734,4 +741,11 @@ footer .arriba{
     .contacto .fila .col{
         width: 100%;
     }
+    .btn-wsp{
+        position: fixed;
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        bottom: 30px;
+        right: 30px;
 }
