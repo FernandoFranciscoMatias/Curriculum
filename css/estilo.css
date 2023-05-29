@@ -749,3 +749,21 @@ footer .arriba{
         bottom: 30px;
         right: 30px;
 }
+}
+@media screen and (max-width: 500px) {
+    body {
+        overflow-x: hidden;
+        width: 100%;
+        background-color: #1e2326;
+    }
+    .btn-wsp{
+        position: sticky;
+        right: 0;
+        transform:translateY(-50%);
+        width: 400px;
+
+               
+
+    }
+      
+}
