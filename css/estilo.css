@@ -653,8 +653,8 @@ footer .arriba{
 
 .btn-wsp{
     position: fixed;
-    width: 55px;
-    height: 55px;
+    width: 180px;
+    height: 180px;
     line-height: 55px;
     bottom: 30px;
     right: 30px;
@@ -691,11 +691,12 @@ footer .arriba{
     }
     .btn-wsp{
         position: fixed;
-        width: 55px;
-        height: 55px;
+        width: 140px;
+        height: 140px;
         line-height: 55px;
         bottom: 30px;
         right: 30px;
+    }
 }
 @media screen and (max-width:700px){
     .sobremi .fila{
@@ -743,8 +744,8 @@ footer .arriba{
     }
     .btn-wsp{
         position: fixed;
-        width: 55px;
-        height: 55px;
+        width: 130px;
+        height: 130px;
         line-height: 55px;
         bottom: 30px;
         right: 30px;
@@ -756,7 +757,7 @@ footer .arriba{
         width: 100%;
         background-color: #1e2326;
     }
-    .btn-wsp{
+   /* .btn-wsp{
         position: sticky;
         right: 0;
         transform:translateY(-50%);
@@ -764,6 +765,6 @@ footer .arriba{
 
                
 
-    }
+    }*/
       
 }
