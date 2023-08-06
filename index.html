@@ -1,533 +1,452 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>FERNANDO</title>
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="fontello.css">
+    <title>López Fernando</title>
+    <link rel="stylesheet" href="./style.css">
 
-    <script>
-        document.addEventListener('contextmenu', event => event.preventDefault());
-    </script>
+    <!-- Links de iconos de boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <!-- Primary Meta Tags -->
-<title>López Boveda Fernando</title>
-<meta name="title" content="López Boveda Fernando">
-<meta name="description" content="My programming experience and skills enable me to tackle a wide range of projects and contribute effectively to your organization. I am committed to excellence in software development, problem-solving, and delivering high-quality results. As a programmer, I can bring my expertise and passion for programming to your team, ensuring success in your development projects.">
-
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://fernandofranciscomatias.github.io/Curriculum/">
-<meta property="og:title" content="López Boveda Fernando">
-<meta property="og:description" content="My programming experience and skills enable me to tackle a wide range of projects and contribute effectively to your organization. I am committed to excellence in software development, problem-solving, and delivering high-quality results. As a programmer, I can bring my expertise and passion for programming to your team, ensuring success in your development projects.">
-<meta property="og:image" content="">
-
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://fernandofranciscomatias.github.io/Curriculum/">
-<meta property="twitter:title" content="López Boveda Fernando">
-<meta property="twitter:description" content="My programming experience and skills enable me to tackle a wide range of projects and contribute effectively to your organization. I am committed to excellence in software development, problem-solving, and delivering high-quality results. As a programmer, I can bring my expertise and passion for programming to your team, ensuring success in your development projects.">
-<meta property="twitter:image" content="">
 
 </head>
+
 <body>
-    <!-- MENU ENCABEZADO -->
-    <div class="contenedor-header">
-        <header>
-            <div class="logo">
-                <a href="#">Fernando</a>
+    <!-- header -->
+    <header class="header">
+        <a href="#" class="logo">Fernando.<span class="animate" style="--i:1;"></span></a>
+
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+            
+        </nav>
+    
+    </header>
+
+    <!-- Seccion de inicio / home-->
+    <section class="home show-animate" id="home">
+        <div class="home-content">
+           
+            <h1>Hi, I'm <span>Fernando</span><span class="animate" style="--i:2;"></span></h1>
+            
+            <div class="text-animate">
+                <h3>Federal Police</h3>
+                <span class="animate" style="--i:3;"></span>
+                
             </div>
-            <nav id="nav">
-                <ul>
-                    <li><a href="#inicio" onclick="seleccionar()">START</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
-                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
-                    <li><a href="#curriculum" onclick="seleccionar()">RESUME</a></li>
-                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
-                </ul>
-            </nav>
-            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
-                <i class="fa-solid fa-bars"></i>
+            
+            <p>For 13 years I have worked in the Argentine Federal Police. In said governmental institution. I have taken
+                many defense and protection courses. I have also worked and participated in UN special peace operations.
+                <span class="animate" style="--i:4;"></span>
+            </p>
+
+            <div class="btn-box">
+                <a href="#contact" class="btn">Hire Me</a>
+                <a href="https://api.whatsapp.com/send?phone=+5491122532506" class="btn" target="_blank">Let's Talk</a>
+                <span class="animate" style="--i:5;"></span>
             </div>
-        </header>
+        </div>
+
+        <div class="home-sci">
+            <a href="https://twitter.com/CVLopezFernando"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-meta' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://www.instagram.com/ofelico/"><i class='bx bxl-instagram' ></i></a>
+            <a href="./img/LopezFernandoCV.pdf" target="_blank"><i class='bx bxs-cloud-download' ></i></a>
+            <span class="animate" style="--i:6;"></span>
+            
+        </div>
+
+        <div class="home-imgHover"></div>
+        <span class="animate home-img" style="--i:7;"></span>
+        
+    </section>
+
+    <!-- Sobre mí -->
+
+    <section class="about" id="about">
+        
+        <h2 class="heading">About <span>Me</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="about-img">
+            
+            <img src="./img/perfil2.png" alt="">
+            <span class="circle-spin"></span>
+            <span class="animate scroll" style="--i:2;"></span>
+            
+        </div>
+
+        <div class="about-content">
+            <h3>Developer<span class="animate scroll" style="--i:3;"></span></h3>
+            <p>As a skilled Programmer Analyst, I have expertise in an array of programming languages and technologies. My key skills include:
+
+                JAVA: With hands-on experience in developing robust and efficient applications using Java, I can effectively contribute to your projects and adapt to evolving technological landscapes.
+                
+                JavaScript: My knowledge of JavaScript allows me to build dynamic and interactive web applications, enhancing the user experience and ensuring seamless functionality.
+                
+                HTML & CSS: Proficient in HTML and CSS, I can craft visually appealing and responsive websites that comply with the latest industry standards.
+                
+                SQL: Adept at working with SQL databases, I can efficiently manage data and ensure its integrity, security, and optimal retrieval.
+                
+                In addition to my programming acumen, I possess expertise in using various office programs, including Microsoft Office and Adobe Creative Suite 6. These skills have enabled me to communicate and collaborate effectively with diverse teams and create compelling visual content.
+                
+                Furthermore, I have acquired some knowledge of Python, which adds to my versatility as a programmer and broadens my scope of problem-solving.
+                
+                Throughout my career, I have demonstrated a strong work ethic, a commitment to excellence, and an eagerness to learn and adapt. I am confident that my technical skills, coupled with my ability to work collaboratively and efficiently, make me a valuable asset to any development team.
+                <span class="animate scroll" style="--i:4;"></span>
+            </p>
+           
+            <div class="btn-box btns">
+                <a href="" class="btn">Read More</a>
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- EDUCACIÓN -->
+    <section class="education" id="education">
+       
+        <h2 class="heading">My <span>Journey</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="education-box">
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'> 2007 - 2010</i></div>
+                            <h3>Graphic design</h3>
+                            <p>I have pursued a Graphic Design career at the University of Buenos Aires for three years, gaining valuable experience and knowledge in the field. During my studies, I focused on understanding the principles of design, exploring various techniques, and visual communication. Additionally, I expanded my expertise in areas such as semiotics and semiology, enabling me to create designs that effectively convey messages. My passion for design keeps me updated with the latest industry trends and advancements, and I am thrilled to contribute my creativity and enthusiasm to the success of your company. </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'> 2018 - 2019</i></div>
+                            <h3> Bachelor's degree in Psychology</h3>
+                            <p>I have pursued a Bachelor's degree in Psychology at UCA (Universidad Católica Argentina) for one year, gaining valuable experience and knowledge in the field. During my time at UCA, I focused on understanding the fundamental concepts of psychology, exploring various psychological theories, and research methods.
+
+                                I have delved into subjects such as developmental psychology, cognitive psychology, and social psychology, which have provided me with a comprehensive understanding of human behavior and mental processes.
+                                
+                                My passion for psychology drives me to continuously expand my knowledge and stay updated with the latest advancements in the field. I am excited to utilize my skills and insights to contribute meaningfully to the well-being of individuals and society.
+                                
+                                Although I have completed only one year of my degree, I am confident in my abilities as a psychology student, and I look forward to furthering my education and making a positive impact in the field of psychology.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'> 2019 - 2023</i></div>
+                            <h3>Computer Science</h3>
+                            <p>I have pursued a career as a Systems Analyst and Programmer Analyst at ORT, where I gained valuable knowledge and experience in the field. Additionally, I have completed various technology courses, including topics like cybersecurity, data science, artificial intelligence, Azure, and Google Cloud microservices. Furthermore, I am proficient in using the Bizagi system, which is widely used in many companies.
+
+                                Continuing my passion for learning, I constantly strive to improve my skills in different programming languages and technologies. Whether staying up-to-date with the latest advancements or mastering new programming languages, I am dedicated to keeping myself at the forefront of the ever-changing technological landscape.
+                                
+                                My diverse educational background and ongoing commitment to learning allow me to approach challenges with a versatile skill set and a deep understanding of modern technology. I am eager to leverage my knowledge and expertise to contribute effectively to projects and drive innovation in the technology field.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'> 2022 - 2023</i></div>
+                            <h3>Economía y Negocios</h3>
+                            <p>During my educational journey, I have had the opportunity to participate in specialized courses that have provided me with a deep understanding of how cryptocurrencies and blockchain technology work. Through these programs, I have acquired key skills to analyze cryptocurrency markets, identify investment opportunities, and effectively manage risks.
+
+                                One aspect that I highly value in my education is the focus on cryptocurrency security. I have completed specific courses on secure storage practices, protection of private keys, and preventive measures against potential cyber threats. This strong foundation in security is essential to maintain the integrity of digital assets in an increasingly complex environment.
+                                
+                                Furthermore, I have trained in advanced trading techniques to optimize my operations in cryptocurrency markets. Through technical and fundamental analysis, I have learned to interpret charts, identify price patterns, and make informed decisions to maximize my investments.
+                                
+                                My dedication to continuous learning has led me to explore different areas related to cryptocurrencies, such as decentralized finance (DeFi), non-fungible tokens (NFTs), and blockchain technology applications in various sectors. This has allowed me to develop a comprehensive and versatile understanding of this exciting and innovative field.</p>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:3;"></span>
+
+                    
+                </div>
+            </div>
+
+            <div class="education-column">
+                <h3 class="title">Experience<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="education-box">
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'> 2006 - 2012</i></div>
+                            <h3>Waiter (Buenos Aires - Argentina)</h3>
+                            <p>From 2006 to 2012, I had a rewarding experience working as a waiter in various formal restaurants in Argentina. I had the privilege of being part of renowned establishments such as the Jockey Club Argentino, Madero Tango, and Franchezka.
+
+                                At the Jockey Club Argentino, I learned and perfected my service skills in an elegant and exclusive environment. It provided me with a deep understanding of etiquette and protocol in attending to diners, contributing to delivering an exceptional gastronomic experience.
+                                
+                                Madero Tango offered me the opportunity to work in an artistic and vibrant setting. This experience enabled me to develop teamwork and adaptability skills, as we had to synchronize our actions with live performances to provide flawless service.
+                                
+                                In Franchezka, I learned the importance of attention to detail and customer satisfaction in a restaurant with a distinctive culinary focus. Working in such a dynamic environment allowed me to refine my ability to handle high-demand situations while maintaining a high level of professionalism.
+                                
+                                Throughout these years, my experience as a waiter taught me the significance of courtesy, efficiency, and empathy when interacting with customers. Additionally, I acquired problem-solving skills and the ability to remain calm under pressure.
+                                
+                                I am grateful for every opportunity I had to be part of these prestigious restaurants, as they enriched me both professionally and personally. My experience as a waiter has been instrumental in my career development and has provided me with valuable lessons that I can apply in any work setting.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'> 1999 - 2022</i></div>
+                            <h3>Computer Repair Technician</h3>
+                            <p>I have gained extensive experience in building and repairing computers, developing a strong set of technical skills. I have assembled custom computers and resolved both hardware and software issues. My passion for technology and continuous learning keeps me up-to-date with the latest trends, enabling me to offer effective solutions. I am excited to make a positive contribution to computer-related projects.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'> 2012 - 2022</i></div>
+                            <h3>Federal Police</h3>
+                            <p>During my time with the Federal Police, I have gained a diverse and rewarding experience in various operations. I have actively participated in training the "Cascos Azules," who are members of the Argentine Army collaborating with the United Nations, providing them with valuable instruction and guidance.
+
+                                One of my notable roles was serving as a Presidential Custodian, where I was entrusted with ensuring the security and safety of high-ranking officials. This position demanded exceptional professionalism and constant vigilance.
+                                
+                                Furthermore, I have been actively involved in a wide range of federal investigations related to various criminal activities. My experience spans across investigations involving different types of crimes, contributing to my in-depth understanding of the complexities of law enforcement.
+                                
+                                As part of my professional development, I have acquired specific skills and expertise. As a Systems Operator, I have operated LEO3 Airbus EC135 & EC145 systems, demonstrating proficiency in handling advanced technology. I have also been trained as a VANT Operator, showcasing my competence in operating unmanned aerial vehicles for surveillance and reconnaissance purposes.
+                                
+                                Additionally, my expertise extends to anti-terrorism tactics and weapons handling, crucial skills in maintaining public safety and effectively responding to potential threats.
+                                
+                                My time with the Federal Police has been both challenging and fulfilling, equipping me with a well-rounded skill set that enables me to contribute effectively to a wide range of law enforcement activities. I take immense pride in my dedication to upholding the law and ensuring the safety and well-being of the community.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'> 2016 - 2023</i></div>
+                            <h3>Cryptocurrency Specialist</h3>
+                            <p>I have extensive knowledge and experience in the world of cryptocurrencies and blockchain. Over the years, I have engaged in various platforms for trading and investment, exploring the dynamic and ever-changing landscape of digital assets.
+
+                                As an avid cryptocurrency trader, I have honed my skills in analyzing market trends and making informed decisions to maximize profits and manage risks. I have operated on different cryptocurrency exchanges, gaining valuable insights into various trading strategies and techniques.
+                                
+                                Moreover, I have actively participated in the realm of Non-Fungible Tokens (NFTs), exploring the potential of this revolutionary concept in the world of digital art, collectibles, and virtual assets. My involvement in the NFT space has given me a deeper understanding of its applications and opportunities, including tokenization of unique digital assets and ownership verification.
+                                
+                                With a keen interest in blockchain technology, I appreciate the decentralized nature of blockchain networks and the potential they hold for disrupting traditional industries. I have explored different blockchain platforms and their applications in sectors like supply chain management, finance, and decentralized finance (DeFi).
+                                
+                                Furthermore, I am continuously expanding my knowledge of the latest developments and innovations in the cryptocurrency and blockchain space. Staying up-to-date with this rapidly changing industry allows me to identify emerging opportunities and potential risks.
+                                
+                                The world of cryptocurrencies and blockchain has fascinated me with its potential to reshape industries and empower individuals through decentralized networks. My experience in trading, NFTs, and blockchain applications has provided me with a well-rounded perspective on this transformative technology and its impact on the global economy. I look forward to further exploring and contributing to this dynamic and innovative domain.</p>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:6;"></span>
+                    
+                </div>
+            </div>
+ 
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+
+<section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span><span class="animate scroll" style="--i:1;"></span></h2>
+    <div class="skills-row">
+        <div class="skills-column">
+            <h3 class="title">Coding Skills<span class="animate scroll" style="--i:2;"></span></h3>
+
+            <div class="skills-box">
+                <div class="skills-content">
+                    
+                    <div class="progress">
+                        <h3>Java<span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>JavaScript<span>85%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>HTML<span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>CSS <span>85%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>SQL <span>80%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>Python <span>70%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>Bizagi <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>Graphic Design <span>80%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>Semiotics <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                </div>
+
+                <span class="animate scroll" style="--i:3;"></span>
+                
+            </div> 
+            <span class="animate scroll" style="--i:2;"></span>
+        </div>
+
+
+        <div class="skills-column">
+            <h3 class="title">Professional skills<span class="animate scroll" style="--i:5;"></span></h3>
+
+            <div class="skills-box">
+                <div class="skills-content">
+                    
+                    <div class="progress">
+                        <h3>Building and Repairing Computers <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>Cryptocurrency and Blockchain Knowledge <span>80%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>Trading <span>75%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>Unmanned Aerial Vehicle (UAV) Operation <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>Custody Tactics <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>Tactics and Anti-terrorism <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>Exercising good judgment in a risky situation<span>100%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>Active Listening Skills<span>100%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>Strong commitment and willingness.<span>100%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                </div>
+                <span class="animate scroll" style="--i:6;"></span>
+                
+            </div>
+
+            <span class="animate scroll" style="--i:6;"></span>
+        </div>
+
+    </div>
+</section>
+
+<!-- Contact section desing -->
+
+<section class="contact" id="contact">
+    <h2 class="heading">Contact<span>me</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+    <form action="https://formspree.io/f/moqzzrar" method="post">
+        <div class="input-box">
+            <div class="input-field">
+                <input type="text" name="name"  placeholder="Full Name" id="Name" required>
+                <span class="focus"></span>
+            </div>
+
+            <div class="input-field">
+                <input type="email" name="email" placeholder="Email" id="Email" required>
+                <span class="focus"></span>
+            </div>
+
+            <span class="animate scroll" style="--i:3;"></span>
+        </div>
+
+        <div class="input-box">
+            <div class="input-field">
+                <input type="number" name="phone" placeholder="Phone" id="Phone" required>
+                <span class="focus"></span>
+            </div>
+
+            <div class="input-field">
+                <input type="text" name="subject" placeholder="Subject" id="Subject" required>
+                <span class="focus"></span>
+            </div>
+
+            <span class="animate scroll" style="--i:5;"></span>
+        </div>
+
+        <div class="textarea-field">
+            <textarea name="message" id="Message" cols="30" rows="10" placeholder="Message" required></textarea>
+            <span class="focus"></span>
+
+            <span class="animate scroll" style="--i:7;"></span>
+        </div>
+
+        <div class="btn-box btns">
+            <button type="submit" class="btn">Send</button>
+
+            <span class="animate scroll" style="--i:9;"></span>
+        </div>
+    </form>
+</section>
+
+<!-- Pie de página o footer -->
+
+<footer class="footer">
+    <div class="footer-text">
+       
+        <p>Copyright © 2023. Created by Creak. Powered by HTML CSS y JS</p>
+
+        <span class="animate" style="--i:1;"></span>  
     </div>
 
-    <!-- SECCION INICIO -->
-    <section id="inicio" class="inicio">
-        <div class="contenido-banner">
-            <div class="contenedor-img">
-                <img src="img2/ElonCv.png" alt="">
-            </div>
-            <h1>López Boveda Fernando</h1>
-            <h2>Systems Engineer</h2>
-            <div class="redes">
-                <a href="https://www.facebook.com/fernandopiki/"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://twitter.com/CVLopezFernando"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://join.skype.com/invite/oOSFFSuPz8bq"><i class="fa-brands fa-skype"></i></a>
-                <a href="https://linkedin.com/in/fernandomatias1982"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://dashboard.rss.com/"><i class="fa-solid fa-rss"></i></a>
-            </div>
-        </div>
-    </section>
+    <div class="footer-iconTop">
+        <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
 
-    <!-- SECCION SOBRE MI -->
-    <section id="sobremi" class="sobremi">
-        <div class="contenido-seccion">
-            <h2>About me</h2>
-            <p><span>López Fernando</span> 
+        <span class="animate" style="--i:3;"></span>
+    </div>
 
-                For 13 years I have worked in the Argentine Federal Police. In said governmental institution. I have taken
-                many defense and protection courses. I have also worked and participated in UN special peace operations
-                
-                </p>
+</footer>
 
-            <div class="fila">
-                <!-- datos personales -->
-                <div class="col">
-                    <h3>Personal Information</h3>
-                    <ul>
-                        <li>
-                            <strong>Birthday</strong>
-                            1982-02-08
-                        </li>
-                        <li>
-                            <strong>Phone</strong>
-                            +54 9 011 22532506
-                        </li>
-                        <li>
-                            <strong>Email</strong>
-                            FernandoFranciscoMatias@gmail.com
-                        </li>
-                        <li>
-                            <strong>Website</strong>
-                            https://fernandofranciscomatias.github.io/Curriculum/
-                        </li>
-                        <li>
-                            <strong>Address</strong>
-                            Av. Libertador 2861 Olivos, Buenos Aires Argentina
-                        </li>
-                        <li>
-                            <strong>POST</strong>
-                            <span>FREELANCE</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- intereses -->
-                <div class="col">
-                    <h3>Interests</h3>
-                    <div class="contenedor-intereses">
-                        <div class="interes">
-                            <i class="fa-solid fa-gamepad"></i>
-                            <span>GAMES</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-headphones"></i>
-                            <span>MUSIC</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-plane"></i>
-                            <span>TRAVEL</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-brands fa-apple"></i>
-                            <span>MAC OS</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-person-hiking"></i>
-                            <span>SPORTS</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-book"></i>
-                            <span>BOOKS</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-car"></i>
-                            <span>CARS</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-camera"></i>
-                            <span>PHOTOS</span>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-            <!--<a href="img2/LopezFernandoCV.pdf" download="LopCV.pdf">Descarga</a>-->
-            
-            <button>
-                <a href="img2/LopezFernandoCV.pdf" download="LopezFernandoCV.pdf">
-                    Download CV <i class="fa-solid fa-download"></i>
-                </a>
-                
-                <span class="overlay"></span>
-            </button>
-        
-        </div>
-    </section>
-
-    <!-- SECCION SKILLS -->
-    <section class="skills" id="skills">
-        <div class="contenido-seccion">
-            <h2>Skills</h2>
-            <div class="fila">
-                <!-- Technical Skill -->
-                <div class="col">
-                    <h3>Technical Skills</h3>
-                    <div class="skill">
-                        <span>Javascript</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>40%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>HTML & CSS</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>85%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Photoshop</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>95%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Wordpress</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>81%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Java</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>65%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Professional Skills -->
-                <div class="col">
-                    <h3>Professional Skills</h3>
-                    <div class="skill">
-                        <span>Communication</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>80%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Teamwork</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>99%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Creativity</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>99%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Dedication</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>100%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Proyect Management</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>94%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECCION CURRICULUM -->
-    <section id="curriculum" class="curriculum">
-        <div class="contenido-seccion">
-            <h2>Resume</h2>
-            <div class="fila">
-                <div class="col izquierda">
-                    <h3>Education</h3>
-                    <div class="item izq">
-                        <h4>Art and Media</h4>
-                        <span class="casa">Graphic Designer</span>
-                        <span class="fecha">2003 - 2007</span>
-                        <p>My background in graphic design and my passion for programming combine to offer a valuable and unique skill set. By hiring me, you will be getting a professional who is capable of approaching projects from a visual perspective, thinking creatively, communicating effectively, and delivering an exceptional user experience. My knowledge of graphic design complements and enriches my skills as a programmer, and I am sure that my contribution will be an asset to your company.</p>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    <div class="item izq">
-                        <h4>Electronic technician</h4>
-                        <span class="casa">Computer assembly and repair</span>
-                        <span class="fecha">2005 - 2012</span>
-                        <p>My ability to quickly resolve technical issues will ensure smooth operation of your company's equipment, minimizing downtime and maximizing productivity.</p>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    <div class="item izq">
-                        <h4>Developer</h4>
-                        <span class="casa">Systems Engineer</span>
-                        <span class="fecha">2019 - 2023</span>
-                        <p>My programming experience and skills enable me to tackle a wide range of projects and contribute effectively to your organization. I am committed to excellence in software development, problem-solving, and delivering high-quality results. As a programmer, I can bring my expertise and passion for programming to your team, ensuring success in your development projects.</p>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col derecha">
-                    <h3>Work experience</h3>
-                    <div class="item der">
-                        <h4>Federal Police</h4>
-                        <span class="casa">Cybersecurity</span>
-                        <span class="fecha">2012 - 2022</span>
-                        <p>Having experience as a federal police officer, working in areas such as cybercrime, cybersecurity, and serving as a presidential security officer, I can bring various valuable knowledge and skills to your company. Here are some ways in which this expertise can be beneficial:</p>
-                        <p>I can help identify potential vulnerabilities and design robust security strategies to protect your systems and business data.</p>
-                        <p>As a former federal police officer, I have gained extensive experience in risk assessment and management. I can apply this approach to identify potential threats or vulnerabilities in your company's processes and systems and propose preventive and mitigating measures.</p>
-                        <p>My experience in cybercrime has provided me with advanced investigative and analytical skills. I can utilize these abilities to analyze security incidents, conduct internal and external investigations, and take appropriate measures to ensure the integrity and security of your company.</p>
-                        <p>Having served as a presidential security officer, I have developed a high level of competence in protecting high-profile assets and individuals. I can apply this knowledge to help establish and enhance the physical security of your company by implementing access control measures, surveillance systems, and appropriate security procedures.</p>
-                        <p>My experience in high-risk situations has equipped me with effective crisis management skills. I can assist your company in developing emergency response plans and training staff on how to act in crisis situations, minimizing the impact and ensuring a prompt and effective response.</p>
-                        <p>Given my knowledge in security and law enforcement areas, I can collaborate in the implementation and compliance of regulations and standards related to cybersecurity and data protection.</p>
-                        <p>In summary, my experience in cybersecurity, risk management, investigation, protection of assets and individuals, crisis management, and regulatory compliance can help strengthen the security and protection of your company. I am prepared to apply my knowledge and skills to ensure that your organization operates securely and is ready to face current security challenges.</p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                   <!-- <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Mercado Libre</span>
-                        <span class="fecha">2023 - 2024</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                    <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Nitro2</span>
-                        <span class="fecha">2023 - 2025</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>-->
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECCION PORTFOLIO -->
-    <section id="portfolio" class="portfolio">
-        <div class="contenido-seccion">
-            <h2>PORTFOLIO</h2>
-            <div class="galeria">
-                <div class="proyecto">
-                    <img src="img2/1.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Compromiso</h3>
-                        <p>Vocacion</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img2/2.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Impacto</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img2/3.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Profecionalismo</h3>
-                        <p>Servicio</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img2/4.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Constante capasitacion</h3>
-                        <p>Compromiso</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img2/5.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Investigacion</h3>
-                        <p>Destresa</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img2/6.jpg" alt="">
-                    <div class="overlay">
-                        <h3>excelencia</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECCION CONTACTO -->
-    <section id="contacto" class="contacto">
-        <div class="contenido-seccion">
-            <h2>CONTACT</h2>
-            <div class="fila">
-                <!-- Formulario -->
-                <!--<form action="https://formsubmit.co/your@email.com" method="POST">
-     <input type="text" name="name" required>
-     <input type="email" name="email" required>
-     <button type="submit">Send</button>
-</form>
-
-<div class="col">
-  <form method="post" action="enviar_email.php">
-    <input type="text" name="nombre" placeholder="Nombre" required>
-    <input type="text" name="telefono" placeholder="Teléfono" required>
-    <input type="email" name="correo" placeholder="Correo electrónico" required>
-    <input type="text" name="asunto" placeholder="Asunto" required>
-    <textarea name="mensaje" placeholder="Mensaje" required></textarea>
-    <button type="submit">Enviar mensaje<i class="fa-solid fa-paper-plane"></i></button>
-  </form>
-</div> 
-las paginas anteriores mucho no funcionaron, pero la mejor es la siguiente:
-
-https://www.youtube.com/watch?v=klVFReOfj1k
-
-
-
-<div class="col">
-                    <form action="form.php" method="post" class="speaker-form">
-                        <input type="text" name="nombre" placeholder="Name" required>
-                        <input type="text" name="telefono" placeholder="Phone" required>
-                        <input type="email" name="correo" placeholder="Email" required>
-                        <input type="text" name="asunto" placeholder="Subject" required>
-                        <textarea name="mensaje" placeholder="Mensaje" required></textarea>
-                        <button type="submit">Send message<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                        </button>
-                    </form>
-                </div>-->
-
-                <!-- Actiion: Escribir la ruta del archivo PHP -->
-                <!--Method: POST
-                <form
-  action="https://formspree.io/f/moqzzrar"
-  method="POST"
->-->
-                <div class="col">
-                    <form action="https://formspree.io/f/moqzzrar" method="POST" class="speaker-form">
-                        <label>
-                             <input type="text" name="name" placeholder="Name" id="Name">
-                        </label>
-                        <label>
-                             <input type="phone number" name="phone" placeholder="Phone" id="Phone">
-                        </label>
-                        <label>
-                             <input type="email" name="email" placeholder="Email" id="Email">
-                        </label>
-                        <label>
-                             <input type="text" name="subject" placeholder="Subject" id="Subject">
-                        </label>
-                        <label>
-                             <textarea name="message" placeholder="Mensaje" required></textarea>
-                        </label>
-                        <button type="submit">Send message<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                        </button>
-                    </form>
-                </div>
-               <!-- <form action="form.php" method="POST" class="speaker-form">
-                    <div class="form-row">
-                        <label for="full-name">Name</label>
-                        <input id="full-name" name="full-name" type="text"/>
-                    </div>
-
-                    <div class="form-row">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" type="email" placeholder="FernandoFranciscoMatias@gmail.com">
-                    </div>
-
-                    <fieldset class="legacy-form-row">
-                        <legend>Type of Talk</legend>
-                        <input id="talk-type-1" name="talk-type" type="radio" value="main-">
-
-                    </fieldset>
-                </form>-->
-                <!-- Mapa -->
-                <div class="col">
-                    <img src="img2/ubicacion.png" alt="">
-                    <div class="info">
-                        <ul>
-                            <li>
-                                <i class="fa-solid fa-location-dot"></i>
-                                Av Libertador 2861 Olivos, Buenos Aires Argentina
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-mobile-screen"></i>
-                                Llamanos: +54 9 011 22532506 
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-envelope"></i>
-                                Email: FernandoFranciscoMatias@gmail.com
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- footer -->
-    <footer>
-        <a href="#inicio" class="arriba">
-            <i class="fa-solid fa-angles-up"></i>
-        </a>
-        <div class="redes">
-            <a href="https://www.facebook.com/fernandopiki/"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="https://twitter.com/CVLopezFernando"><i class="fa-brands fa-twitter"></i></a>
-            <a href="https://join.skype.com/invite/oOSFFSuPz8bq"><i class="fa-brands fa-skype"></i></a>
-            <a href="https://linkedin.com/in/fernandomatias1982"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="https://dashboard.rss.com/"><i class="fa-solid fa-rss"></i></a>
-        </div>
-        <div class="whatsupp">
-            <a href="https://api.whatsapp.com/send?phone=+5491122532506" class="btn-wsp" target="_blank">
-                <i class="icon-whatsapp">
-                    <img src="./img2/icons8-whatsapp.svg" class="btn-wsp" alt="Icono whatsapp">
-                </i>
-             
-            </a>
-
-        </div>
-    </footer>
-
-    <script src="js/script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
